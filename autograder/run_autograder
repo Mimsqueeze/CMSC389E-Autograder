@@ -1,2 +1,5 @@
 #!/bin/bash
+
+# Run the grading script
+cd /autograder/source
 python3 grade.py
