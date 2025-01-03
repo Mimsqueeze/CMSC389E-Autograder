@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Run the grading script
+cp -r /autograder/submission/world /autograder/source/world
+cd /autograder/source
+python3 grade.py

@@ -1,0 +1,36 @@
+[22:49:37] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.9
+[22:49:37] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.16.9
+	   \-- mixinextras 0.4.1
+	- java 17
+	- minecraft 1.20.1
+[22:49:37] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/minsi/Projects/Synced/CMSC389E-Autograder/autograder/source/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[22:49:43] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:49:43] [main/WARN]: Missing data pack fabric
+[22:49:45] [main/INFO]: Loaded 7 recipes
+[22:49:45] [main/INFO]: Loaded 1271 advancements
+[22:49:45] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[22:49:45] [Server thread/INFO]: Loading properties
+[22:49:45] [Server thread/INFO]: Default game type: SURVIVAL
+[22:49:45] [Server thread/INFO]: Generating keypair
+[22:49:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:49:45] [Server thread/INFO]: Using default channel type
+[22:49:45] [Server thread/INFO]: Preparing level "world"
+[22:49:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:49:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[22:49:48] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[22:49:48] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[22:49:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[22:49:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[22:49:48] [Worker-Main-15/INFO]: Preparing spawn area: 4%
+[22:49:49] [Worker-Main-2/INFO]: Preparing spawn area: 70%
+[22:49:49] [Server thread/INFO]: Time elapsed: 3216 ms
+[22:49:49] [Server thread/INFO]: Done (3.437s)! For help, type "help"
+[22:51:32] [User Authenticator #1/INFO]: UUID of player Mimsqueeze is ff2f075d-cf06-4e6d-8964-c0f30b5f4a8a
+[22:51:32] [Server thread/INFO]: Mimsqueeze[/127.0.0.1:55389] logged in with entity id 1 at (1.699999988079071, 56.0, 1.6191251980273815)
+[22:51:32] [Server thread/INFO]: Mimsqueeze joined the game
+[22:52:25] [Server thread/INFO]: Mimsqueeze lost connection: Disconnected
+[22:52:25] [Server thread/INFO]: Mimsqueeze left the game
+[22:52:36] [User Authenticator #2/INFO]: UUID of player Mimsqueeze is ff2f075d-cf06-4e6d-8964-c0f30b5f4a8a
+[22:52:36] [Server thread/INFO]: Mimsqueeze[/127.0.0.1:55420] logged in with entity id 2 at (1.5011486137932428, 56.0, 1.7929657224191324)
+[22:52:36] [Server thread/INFO]: Mimsqueeze joined the game
