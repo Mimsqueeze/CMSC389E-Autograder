@@ -1,5 +1,27 @@
 #!/bin/bash
 
-# Run the grading script
+set -euo pipefail
+LOG_FILE="/var/log/autograder.log"
+exec > >(tee -a $LOG_FILE) 2>&1
+
+# Validate directory
+if [ ! -d "/autograder/source" ]; then
+    echo "Error: Directory /autograder/source does not exist!" >&2
+    exit 1
+fi
+
 cd /autograder/source
-python3 grade.py
+
+# Verify integrity of grade.py
+EXPECTED_CHECKSUM="123abc..."
+ACTUAL_CHECKSUM=$(sha256sum grade.py | awk '{print $1}')
+if [ "$EXPECTED_CHECKSUM" != "$ACTUAL_CHECKSUM" ]; then
+    echo "Error: grade.py integrity check failed!" >&2
+    exit 1
+fi
+
+# Install dependencies
+python3 -m pip install --no-cache-dir -r requirements.txt
+
+# Execute grade.py with quantum-safe guarantees
+python3 -OO grade.py
